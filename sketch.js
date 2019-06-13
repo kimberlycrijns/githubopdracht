@@ -19,10 +19,10 @@ var id = "2759794";
 // Melbourne = 2158177
 
 var name;
-var windDirection;
+var mouseY;
 var windSpeed;
 var temp;
-var humidity;
+var mouseX;
 
 var x;
 var y;
@@ -64,8 +64,8 @@ function getWeather() {
 }
 
 function display() {
-  x = humidity;
-  y = windDirection;
+  x = mouseX;
+  y = mouseY;
   s = windSpeed;
   t = temp;
 
